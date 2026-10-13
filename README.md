@@ -1,5 +1,25 @@
 ## Hi there 👋
 
+🎓 MPhil in Scientific Computing @ University of Cambridge 
+🎓 BEng Chemical Engineering @ University College London (UCL)
+
+### 🔭 Current Project
+  **[BHInference.jl](https://github.com/ju1s04/BHInference.jl)**: Bayesian inference of black hole parameters using
+  general-relativistic ray tracing ([Krang.jl](https://github.com/dominic-chang/Krang.jl)) and probabilistic modelling
+  ([Turing.jl](https://turinglang.org/)) 
+
+ ### 🌌 Interests
+  High-Performance Computing & Machine Learning 
+
+ ### 🌐 Linkedin
+  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/juliettemunoz
+
+  ### 📊 GitHub Stats
+  ![Juliette's GitHub stats](https://github-readme-stats.vercel.app/api?username=ju1s04&show_icons=true&theme=default)
+  ![Top languages](https://github-readme-stats.vercel.app/api/top-langs/?username=ju1s04&layout=compact)
+
+
+ 
 <!--
 **ju1s04/ju1s04** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
