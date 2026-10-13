@@ -1,4 +1,4 @@
-  ## Hi there 👋
+  ## Hi I'm Juliette :)
 
   - 🎓 **MPhil in Scientific Computing** @ University of Cambridge
   - 🎓 **BEng Chemical Engineering** @ University College London (UCL)
@@ -11,6 +11,13 @@
   general-relativistic ray tracing ([Krang.jl](https://github.com/dominic-chang/Krang.jl)) and probabilistic modelling
   ([Turing.jl](https://turinglang.org/)).
 
+
+  ---
+  ### 📚 Previous Work
+
+  - **MPhil Dissertation**: Optimising large systems of equations using GPUs *(74.25%)*, University of Cambridge
+  - **Multi-material simulations** using the Ghost Fluid Method *(92%)*, University of Cambridge
+  - **Acceleration of CFD using CUDA** *(71%)*, University of Cambridge
   ---
 
   ### 🛠️ Open Source Contributions
@@ -24,13 +31,8 @@
 - **Eigenvector sparsity:** skipped structural zeros in the MHD eigenvector projection, removing unnecessary products per interface state ([#3408](https://github.com/AMReX-Astro/Castro/pull/3408), 🔍 under review)
 
 
- ---
 
-  ### 📚 Previous Work
 
-  - **MPhil Dissertation**: Optimising large systems of equations using GPUs *(74.25%)*, University of Cambridge
-  - **Multi-material simulations** using the Ghost Fluid Method *(92%)*, University of Cambridge
-  - **Acceleration of CFD using CUDA** *(71%)*, University of Cambridge
 
   ---
 
