@@ -13,6 +13,19 @@
 
   ---
 
+  ### 🛠️ Open Source Contributions
+
+**[AMReX](https://github.com/AMReX-Codes/amrex)**, a framework for massively parallel, block-structured adaptive mesh refinement (AMR) applications on CPUs and GPUs (CUDA, HIP, SYCL)
+- Added an optional `GPU_MIN_BLOCKS` setting to cap register usage via `__launch_bounds__` ([#5980](https://github.com/AMReX-Codes/amrex/pull/5980), ✅ merged)
+
+**[Castro](https://github.com/AMReX-Astro/Castro)**, an AMReX-based code for compressible (radiation and magneto) hydrodynamics in astrophysics. GPU optimisations of the MHD solver, benchmarked on an NVIDIA A100.
+- **HLLD Riemann solver:** templated on direction so array indices are compile-time constants, keeping thread-local state in registers instead of local memory. ([#3407](https://github.com/AMReX-Astro/Castro/pull/3407), 🔍 under review)
+- **PPM characteristic projection:** computed wave integrals at point of use and merged the left/right projections into one sweep, cutting per-thread temporary storage ([#3406](https://github.com/AMReX-Astro/Castro/pull/3406), 🔍 under review)
+- **Eigenvector sparsity:** skipped structural zeros in the MHD eigenvector projection, removing unnecessary products per interface state ([#3408](https://github.com/AMReX-Astro/Castro/pull/3408), 🔍 under review)
+
+
+ ---
+
   ### 📚 Previous Work
 
   - **MPhil Dissertation**: Optimising large systems of equations using GPUs *(74.25%)*, University of Cambridge
